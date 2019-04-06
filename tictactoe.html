@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TIC-TAC-TOE</title>
+		<link rel="stylesheet" type="text/css" href="styling.css">
+		<link href="https://fonts.googleapis.com/css?family=Keania+One" rel="stylesheet">
+    </head>
+	<body>
+	<h1>TIC-TAC-TOE</h1>
+	<table>
+		<tr>
+			<td class="box"><a href="javascript:Move('A')"><img src="blank.png" border=0 height=100 width=100 id="A"></a></td>
+			<td class="box"><a href="javascript:Move('B')"><img src="blank.png" border=0 height=100 width=100 id="B"></a></td>
+			<td class="box"><a href="javascript:Move('C')"><img src="blank.png" border=0 height=100 width=100 id="C"></a></td>
+		</tr>
+		<tr>	
+			<td class="box"><a href="javascript:Move('D')"><img src="blank.png" border=0 height=100 width=100 id="D"></a></td>
+			<td class="box"><a href="javascript:Move('E')"><img src="blank.png" border=0 height=100 width=100 id="E"></a></td>
+			<td class="box"><a href="javascript:Move('F')"><img src="blank.png" border=0 height=100 width=100 id="F"></a></td>
+		</tr>	
+		<tr>
+	        <td class="box"><a href="javascript:Move('G')"><img src="blank.png" border=0 height=100 width=100 id="G"></a></td>
+			<td class="box"><a href="javascript:Move('H')"><img src="blank.png" border=0 height=100 width=100 id="H"></a></td>
+			<td class="box"><a href="javascript:Move('I')"><img src="blank.png" border=0 height=100 width=100 id="I"></a></td>
+		</tr>
+	</table>		
+	&nbsp;
+	<table>
+		<tr><td class="info">YOU</td><td><input type=text size=5 id="playerx" value=0></td></tr>
+		<tr><td class="info">COMPUTER</td><td><input type=text size=5 id="playero" value=0></td></tr>
+		<tr><td class="info">TIES</td><td><input type=text size=5 id="ties" value=0></td></tr>
+	</table>
+	&nbsp;
+	&nbsp;
+	&nbsp;
+	&nbsp;
+	<input type=button class="press" value="PLAY AGAIN" onclick="playAgain()">
+	&nbsp;
+	&nbsp;
+	<input type=button class="press" value="HELP" onclick="help()">
+	<script src="web.js"></script>	
+</body> 
+</html>		
